@@ -1,0 +1,59 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container{
+  border: 2px solid #363636;
+  padding: 15px;
+  border-radius: 9px;
+  background-color: white;
+  width: 600px;
+  text-align: center;
+}
+.shortUrl{
+  color: #4751a9;
+}
+
+.container>h2{
+  color: #303030;
+}
+.url-container{
+  height: max-content;
+  max-height: 300px;
+  overflow: auto;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  margin: auto;
+  width: 90%;
+}
+.container > h4{
+  color:  #303030;
+}
+.container > h4 >span{
+  color: red;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.cardUrl{
+  padding: 10px;
+  width:90%;
+  height:100px;
+  color:#363636;
+
+}
+
+.cardUrl:hover{
+    border: 1px solid #4751a9;
+    border-radius: 8px ;
+    cursor: pointer;
+}
